@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "299329258290",
+    "project_id": "alpine-fin-324108",
+    "storage_bucket": "alpine-fin-324108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299329258290:android:529563994d9e8571df4d2b",
+        "android_client_info": {
+          "package_name": "com.coopfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299329258290-gipqk2ceskt9li6ib51o7c8t8tkrhvod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX4nNQUDlh8yWIFYoceT7aNlxbiYuY4s8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299329258290-gipqk2ceskt9li6ib51o7c8t8tkrhvod.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "299329258290-jrjpdl2dd6h94rb1g677ifhm9l0iv36h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "vn.dxtgroup.cofood"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
