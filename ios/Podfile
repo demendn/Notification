@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
-target 'example' do
+target 'CoopFood' do
   config = use_native_modules!
 # Add the Firebase pod for Google Analytics
 pod 'Firebase/Analytics'
@@ -12,7 +12,7 @@ pod 'Firebase/Analytics'
 # pod ‘Firebase/AnalyticsWithoutAdIdSupport’
 
 # Add the pods for any other Firebase products you want to use in your app
-# For example, to use Firebase Authentication and Cloud Firestore
+# For CoopFood, to use Firebase Authentication and Cloud Firestore
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
   use_react_native!(
@@ -21,7 +21,7 @@ pod 'Firebase/Firestore'
     :hermes_enabled => true
   )
 
-  target 'exampleTests' do
+  target 'CoopFoodTests' do
     inherit! :complete
     # Pods for testing
   end

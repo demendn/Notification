@@ -17,6 +17,15 @@ import {
 } from 'react-native';
 import NotifService from './NotifService';
 
+import messaging from '@react-native-firebase/messaging';
+useEffect(() => {
+  const unsubscribe = messaging().onMessage(async remoteMessage => {
+    Alert.alert('A new FCM message arrived!', JSON.stringify(remoteMessage));
+  });
+
+  return unsubscribe;
+}, []);
+
 export default class App extends Component {
   constructor(props) {
     super(props);
